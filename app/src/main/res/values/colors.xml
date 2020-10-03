@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackground">#fafafa</color>
+
+    <color name="primary">#EA2D6D</color>
+    <color name="primaryLight">#EA2D6D</color>
+    <color name="primaryDark">#EA2D6D</color>
+    <color name="colorPrimaryDark">#EA2D6D</color>
+    <color name="colorPrimary">#EA2D6D</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="secondary">#ef6c00</color>
+    <color name="secondaryLight">#ff9d3f</color>
+    <color name="secondaryDark">#b53d00</color>
+
+    <color name="textOnPrimary">#ffffff</color>
+    <color name="textOnSecondary">#bdbdbd</color>
+    <color name="textTitle">#de000000</color>
+    <color name="textDescription">#99000000</color>
+
+    <color name="red">#f44336</color>
+    <color name="green">#4caf50</color>
+</resources>

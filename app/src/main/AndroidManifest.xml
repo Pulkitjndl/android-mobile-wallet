@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pulkit.wallet">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppBaseTheme.NoActionBar">
+        <activity android:name=".PWResetActivity" />
+        <activity android:name=".OTPActivity" />
+
+
+        <activity
+            android:name=".CreateAccount"
+            android:parentActivityName=".SelectLoginType" />
+
+        <activity android:name=".SelectLoginType" android:windowSoftInputMode="adjustPan">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity
+            android:name="com.pulkit.wallet.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.pulkit.wallet.AddTransactionActivity"
+            android:label="@string/addTransaction_title"
+            android:parentActivityName="com.pulkit.wallet.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pulkit.wallet.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.pulkit.wallet.EditTransactionActivity"
+            android:label="@string/editTransaction_title"
+            android:parentActivityName="com.pulkit.wallet.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pulkit.wallet.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

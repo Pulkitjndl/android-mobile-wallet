@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "280841146998",
+    "firebase_url": "https://mobilewalletapp-34982.firebaseio.com",
+    "project_id": "mobilewalletapp-34982",
+    "storage_bucket": "mobilewalletapp-34982.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280841146998:android:69a634a113eaadb9218557",
+        "android_client_info": {
+          "package_name": "com.franksacco.wallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280841146998-19locdpht8uianu06og9d397t2jj4n6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1oWakTytL4DhDlBj7pOyiPtZCwbaEfGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280841146998-19locdpht8uianu06og9d397t2jj4n6h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280841146998:android:26ccd857bc37ef8d218557",
+        "android_client_info": {
+          "package_name": "com.pulkit.wallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280841146998-19locdpht8uianu06og9d397t2jj4n6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1oWakTytL4DhDlBj7pOyiPtZCwbaEfGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280841146998-19locdpht8uianu06og9d397t2jj4n6h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

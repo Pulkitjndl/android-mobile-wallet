@@ -1,0 +1,126 @@
+<resources>
+    <!-- General -->
+    <string name="save">Salva</string>
+    <string name="rateDownload_error">Impossibile scaricare il tasso di cambio, assicurati di essere connesso ad internet</string>
+
+    <!-- Drawer & Navigation -->
+    <string name="drawer_open">Apri il menù di navigazione</string>
+    <string name="drawer_close">Chiudi il menù di navigazione</string>
+
+    <!-- Home -->
+    <string name="home_balance">Saldo</string>
+    <string name="home_balanceIn">Entrate</string>
+    <string name="home_balanceOut">Uscite</string>
+    <string name="home_expense">Spese</string>
+    <string name="home_expenseToday">Oggi</string>
+    <string name="home_expenseYesterday">Ieri</string>
+    <string name="home_expenseThisWeek">Questa settimana</string>
+    <string name="home_expenseThisMonth">Questo mese</string>
+
+    <!-- Add transaction -->
+    <string name="addTransaction_title">Aggiungi transazione</string>
+    <string name="confirmExit_dialog_title">Ignorare le modifiche?</string>
+    <string-array name="addTransaction_input_transactionType">
+        <item>Spesa</item>
+        <item>Entrata</item>
+    </string-array>
+    <string name="addTransaction_input_category_hint">Categoria</string>
+    <string name="addTransaction_input_amount_hint">Importo</string>
+    <string name="addTransaction_input_paymentType_hint">Tipologia pagamento</string>
+    <string name="addTransaction_input_currency_hint">Moneta</string>
+    <string name="addTransaction_input_notes_hint">Note</string>
+    <string name="addTransaction_ok">Transazione salvata</string>
+    <string name="addTransaction_error">Errore durante il salvataggio</string>
+    <string name="addTransaction_amountError">Importo non valido</string>
+
+    <!-- Transactions -->
+    <string name="transactions_title">Transazioni</string>
+
+    <!-- Edit transaction -->
+    <string name="editTransaction_title">Modifica</string>
+    <string name="editTransaction_save">Salva</string>
+    <string name="editTransaction_ok">Modifiche salvate</string>
+    <string name="editTransaction_error">Errore durante il salvataggio</string>
+    <string name="deleteTransaction_title">Elimina</string>
+    <string name="deleteTransaction_description">Sei sicuro di voler eliminare la transazione?</string>
+    <string name="deleteTransaction_ok">Transazione eliminata</string>
+    <string name="deleteTransaction_error">Errore durante l\'eliminazione della transazione</string>
+
+    <!-- Categories -->
+    <string name="categories_title">Categorie</string>
+    <string name="addCategory_dialog_title">Nuova categoria</string>
+    <string name="addCategory_input_name_hint">Nome</string>
+    <string name="addCategory_ok">Categoria aggiunta</string>
+    <string name="addCategory_error">Errore durante l\'inserimento della categoria</string>
+    <string name="deleteCategory_title">Elimina categoria</string>
+    <string name="deleteCategory_description">Sei sicuro di voler eliminare questa categoria?</string>
+    <string name="deleteCategory_ok">Categoria eliminata</string>
+    <string name="deleteCategory_error">Errore durante l\'eliminazione</string>
+
+    <!-- Import -->
+    <string name="import_title">Importa</string>
+    <string name="import_text">Seleziona un file CSV da importare</string>
+    <string name="import_button">Seleziona file</string>
+    <string name="import_no_permission">Il permesso di accesso ai file sul dispositivo è richiesto per importare un file</string>
+    <string name="import_ok">Dati importati con successo</string>
+    <string name="import_error">Errore durante l\'importazione</string>
+
+    <!-- Export -->
+    <string name="export_title">Esporta</string>
+    <string name="export_text1">Seleziona il periodo di esportazione:</string>
+    <string name="export_text2">altrimenti:</string>
+    <string name="export_text3">I dati verranno esportati in un file CSV</string>
+    <string name="export_checkbox">Esporta tutte le transazioni</string>
+    <string name="export_button">Esporta</string>
+    <string name="export_no_permission">Il permesso di accesso ai file sul dispositivo è richiesto per esportare un file</string>
+    <string name="export_ok">Dati esportati con successo</string>
+    <string name="export_error">Errore durante l\'esportazione</string>
+    <string name="export_errorDates">La data di inizio deve precedere quella di fine</string>
+
+    <!-- Payment types -->
+    <string-array name="payment_types">
+        <item>Contanti</item>
+        <item>Carta di debito</item>
+        <item>Carta di credito</item>
+        <item>Bonifico bancario</item>
+        <item>Pagamento web</item>
+    </string-array>
+
+    <!-- Currencies -->
+    <string-array name="currency_names">
+        <item>Euro (EUR)</item>
+        <item>Dollaro Americano (USD)</item>
+        <item>Yen Giapponese (JPY)</item>
+        <item>Lev Bulgaro (BGN)</item>
+        <item>Corona Ceca (CZK)</item>
+        <item>Corona Danese (DKK)</item>
+        <item>Sterlina Britannica (GBP)</item>
+        <item>Forint Ungaro (HUF)</item>
+        <item>Zloty Polacco (PLN)</item>
+        <item>Leu Rumeno (RON)</item>
+        <item>Corona Svedese (SEK)</item>
+        <item>Franco Svizzero (CHF)</item>
+        <item>Corona Islandese (ISK)</item>
+        <item>Corona Norvegese (NOK)</item>
+        <item>Kuna Croata (HRK)</item>
+        <item>Roublo Russo (RUB)</item>
+        <item>Lira Turca (TRY)</item>
+        <item>Dollaro Australiano (AUD)</item>
+        <item>Real Brasiliano (BRL)</item>
+        <item>Dollaro Canadese (CAD)</item>
+        <item>Yuan Renminbi Cinese (CNY)</item>
+        <item>Dollaro di Hong Kong (HKD)</item>
+        <item>Rupia Indonesiana (IDR)</item>
+        <item>Shekel Israeliano (ILS)</item>
+        <item>Rupia Indiana (INR)</item>
+        <item>Won Sudcoreano (KRW)</item>
+        <item>Peso Messicano (MXN)</item>
+        <item>Ringgit Malese (MYR)</item>
+        <item>Dollaro Neozelandese (NZD)</item>
+        <item>Piso Filippino (PHP)</item>
+        <item>Dollaro di Singapore (SGD)</item>
+        <item>Baht Tailandese (THB)</item>
+        <item>Rand Sud Africano (ZAR)</item>
+    </string-array>
+
+</resources>
